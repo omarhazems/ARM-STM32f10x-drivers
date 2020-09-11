@@ -1,27 +1,18 @@
 /*********************************************************************************/
 /* Author    : Omar Hazem                                                        */
 /* Version   : V1.0                                                              */
-/* Date      : 19 August 2020                                                    */
+/* Date      : 10 september 2020                                                 */
 /*********************************************************************************/
 
-#ifndef _NVIC_CONFIG_H
-#define _NVIC_CONFIG_H
-
-/*options: NVIC_GROUP_4_SUB_0
-		   NVIC_GROUP_3_SUB_1
-		   NVIC_GROUP_2_SUB_2
-		   NVIC_GROUP_1_SUB_3
-		   NVIC_GROUP_0_SUB_4 */
-#define	NVIC_GROUP_SUB	NVIC_GROUP_2_SUB_2
+#ifndef AFIO_INTERFACE_H
+#define AFIO_INTERFACE_H
 
 
+#define EXTI_PORTA	0
+#define	EXTI_PORTB	1
+#define EXTI_PORTC	2
 
 
-
-
-
-
-
-
+void AFIO_voidEnableEXTI(u8 Copy_u8Line, u8 Copyu8Port);
 
 #endif

@@ -6,7 +6,7 @@
 
 /**********************************************************************************/
 /*	THIS VERSION OF GPIO IS FASTER THAN THE PREVIOUS ONE, THE FUNCTIONS TAKE      */
-/*	LESS TIME TO EXCUTE THE SAME COMMAND 										  */		
+/*	LESS TIME TO EXCUTE.				 										  */		
 /**********************************************************************************/
 
 #ifndef _GPIO_CONFIG_H

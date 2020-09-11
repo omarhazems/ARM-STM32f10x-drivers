@@ -1,27 +1,14 @@
 /*********************************************************************************/
 /* Author    : Omar Hazem                                                        */
 /* Version   : V1.0                                                              */
-/* Date      : 19 August 2020                                                    */
+/* Date      : 6 September 2020                                                  */
 /*********************************************************************************/
-
-#ifndef _NVIC_CONFIG_H
-#define _NVIC_CONFIG_H
-
-/*options: NVIC_GROUP_4_SUB_0
-		   NVIC_GROUP_3_SUB_1
-		   NVIC_GROUP_2_SUB_2
-		   NVIC_GROUP_1_SUB_3
-		   NVIC_GROUP_0_SUB_4 */
-#define	NVIC_GROUP_SUB	NVIC_GROUP_2_SUB_2
+#ifndef _LEDMATRIX_INTERFACE_H
+#define _LEDMATRIX_INTERFACE_H
 
 
 
-
-
-
-
-
-
-
+void LEDMRX_voidInit(void);
+void LEDMRX_voidDisplay(u8 *Copy_u8Data);
 
 #endif
