@@ -1,0 +1,5 @@
+AT+CIPSTART="TCP","162.253.155.226",80
+
+AT+CIPSEND=43
+
+GET http://armomar.freevar.com/status.txt
